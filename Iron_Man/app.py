@@ -21,7 +21,6 @@ DB_NAME = "dc54hvctibec5e"
 DB_USER = "xwuydulcxwtikv"
 DB_PASS = "0d50de23165145b5b9f759fcb8f886b4bfe3151e66665d26ec90213b239b099b"
 
-
 conn = psycopg2.connect(dbname=DB_NAME, user=DB_USER,
                         password=DB_PASS, host=DB_HOST)
 
