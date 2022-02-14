@@ -16,10 +16,7 @@ app.secret_key = "cairocoders-ednalan"
 # DB_USER = "postgres"
 # DB_PASS = "Magnus@14"
 
-DB_HOST = "ec2-54-146-82-179.compute-1.amazonaws.com"
-DB_NAME = "dc54hvctibec5e"
-DB_USER = "xwuydulcxwtikv"
-DB_PASS = "0d50de23165145b5b9f759fcb8f886b4bfe3151e66665d26ec90213b239b099b"
+
 
 conn = psycopg2.connect(dbname=DB_NAME, user=DB_USER,
                         password=DB_PASS, host=DB_HOST)
